@@ -1,4 +1,4 @@
-package ua.training.shapesexercise;
+package ua.training.shapesexercise.model;
 
 public class Rectangle {
     private int height;
@@ -9,7 +9,7 @@ public class Rectangle {
         this.width = width;
     }
 
-    void rectanglePrint(){
+    public void rectanglePrint(){
        for (int i=1;i<width; i++){
             System.out.print("*\t");
         }
