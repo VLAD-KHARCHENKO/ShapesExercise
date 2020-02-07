@@ -1,3 +1,5 @@
+package ua.training.shapesexercise.model;
+
 public class Rhombus {
 
     private final static String SPACE_MARKER = " ";
