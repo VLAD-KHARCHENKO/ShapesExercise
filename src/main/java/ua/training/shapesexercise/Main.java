@@ -1,9 +1,6 @@
 package ua.training.shapesexercise;
 
-import ua.training.shapesexercise.model.IsoscelesTriangle;
-import ua.training.shapesexercise.model.Parallelogram;
-import ua.training.shapesexercise.model.Rectangle;
-import ua.training.shapesexercise.model.Rhombus;
+import ua.training.shapesexercise.model.*;
 
 
 public class Main {
@@ -12,7 +9,7 @@ public class Main {
         Rectangle rectangle = new Rectangle(5, 8);
         rectangle.rectanglePrint();
 
-        Parallelogram parallelogram = new Parallelogram(4, 8);
+        Parallelogram parallelogram = new Parallelogram(3, 8);
         parallelogram.printParallelogram();
 
         Rhombus rhombus = new Rhombus(10);
@@ -20,6 +17,9 @@ public class Main {
 
         IsoscelesTriangle triangle = new IsoscelesTriangle(11);
         triangle.print();
+
+        RectangularTriangle rectangularTriangle = new RectangularTriangle(6);
+        rectangularTriangle.printShape();
     }
 
 }
